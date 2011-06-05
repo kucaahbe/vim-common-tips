@@ -20,11 +20,8 @@ function <SID>TryShowTips()
   catch /E149/
     echo "helptags for 'common-tips' is not generated yet, please wait while it will be done..."
     let l:doc_dir = fnamemodify("<sfile>",":p:h").'/doc'
-    echo l:doc_dir
-    "silent helptags l:doc_dir
-    execute "helptags ".l:doc_dir
+    silent execute "helptags ".l:doc_dir
     call <SID>ShowTips()
-    echo "done"
   endtry
 endfunction
 
