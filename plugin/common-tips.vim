@@ -12,6 +12,14 @@ let loaded_common_tips = 1
 
 function <SID>ShowTips()
   help common-tips
+  resize 0
+  let l:size = 0
+  while l:size < 25
+    let l:size += 1
+    resize +1
+    redraw
+    sleep 1m
+  endwhile
 endfunction
 
 function <SID>TryShowTips()
