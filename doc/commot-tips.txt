@@ -1,0 +1,4 @@
+*common-tips*	Common tips for VIM
+
+
+# vim:ft=help
