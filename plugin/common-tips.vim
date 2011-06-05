@@ -1,0 +1,1 @@
+/home/kuca/etc/kucaahbe-vim/common-tips.vim
