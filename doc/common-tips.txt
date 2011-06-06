@@ -2,13 +2,26 @@
 
 Last change: 2011 Jun 06
 
-MOVING
- gg	to the first line in a file			|gg|,|<C-Home>|
- G	to the last line in a file			|G|
- ^	to first non-blank character in the line	|^|
- $	to the last character in the line
+TODO HERE folded contents menu
 
-EDITING
+*common-tips-moving*		Moving:
+
+ H	to first line in window					|H|
+ L	to last line in window					|L|
+ M	to middle line in window				|M|
+
+ gg	to first line in a file					|gg|
+ G	to last line in a file					|G|
+
+ ^	to first NON-BLANK character in the line		|^|
+ 0	to first character in the line				|0|
+ g0	to first character in the SCREEN line(when |wrap| on)	|g0|	|g0-example|
+
+ g_ 	to last NON-BLANK character in the line			|g_|
+ $	to last character in the line				|$|
+ g$	to last character in the SCREEN line(when |wrap| on)	|g$|
+
+*common-tips-editing*		Editing:
 
  i	Insert mode(inserts a character before the character under the cursor)
  o	creates a new, empty line below the cursor and puts Vim in Insert mode
@@ -19,4 +32,34 @@ EDITING
  u	Undo
  CTRL-R Redo
 
-# vim:ft=help
+COPY/PASTING
+
+*common-tips-examples*		Examples:
+=======================================================================================
+
+*g0-example*
+
+before pressing g0:
+
+	+--------------------------------------+
+	| A very intelligent turtle Found progr|
+	|amming UNI# a hurdle                  |
+	|~				       |
+	|~				       |
+	|				       |
+	+--------------------------------------+
+		('#" is the cursor position.)
+
+after pressing g0:
+
+	+--------------------------------------+
+	| A very intelligent turtle Found progr|
+	|#mming UNIX a hurdle                  |
+	|~				       |
+	|~				       |
+	|				       |
+	+--------------------------------------+
+		('#" is the cursor position.)
+
+
+# vim:ft=help:textwidth=88
