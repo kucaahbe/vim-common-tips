@@ -1,4 +1,22 @@
-*common-tips*	Common tips for VIM
+*common-tips*	Common tips for Vim version 7.2.
 
+Last change: 2011 Jun 06
+
+MOVING
+ gg	to the first line in a file			|gg|,|<C-Home>|
+ G	to the last line in a file			|G|
+ ^	to first non-blank character in the line	|^|
+ $	to the last character in the line
+
+EDITING
+
+ i	Insert mode(inserts a character before the character under the cursor)
+ o	creates a new, empty line below the cursor and puts Vim in Insert mode
+ O	command opens a line above the cursor
+ x	Deleting characters
+ dd	Deleting a line
+ J	Deleting a line break
+ u	Undo
+ CTRL-R Redo
 
 # vim:ft=help
