@@ -6,6 +6,9 @@ TODO HERE folded contents menu
 
 *common-tips-moving*		Moving:
 
+ 7G	go to line 7						|G|
+ 20%	go to 20% of file
+
  H	to first line in window					|H|
  L	to last line in window					|L|
  M	to middle line in window				|M|
@@ -20,6 +23,28 @@ TODO HERE folded contents menu
  g_ 	to last NON-BLANK character in the line			|g_|
  $	to last character in the line				|$|
  g$	to last character in the SCREEN line(when |wrap| on)	|g$|
+
+ w	to next word						|w|	|03.1|
+ b	to previous word					|b|	|03.1|
+ W	to next WORD	      	 				|W|	|03.1|
+ B	to previous WORD					|B|	|03.1|
+ e	to the end of next word					|e|	|03.1|
+ ge	to the end of previous word				|ge|	|03.1|
+ E	to the end of next WORD				     	|E|	|03.1|
+ gE	to the end of previous WORD				|gE|	|03.1|
+
+ %	matching a parenthesis					|%|	|03.4|
+
+	scrolling						|Q_sc|
+
+*common-tips-searching*		Searching:
+
+ /	search command						|/|	|03.8|
+ n	repeat search forward					|n|	|03.8|
+ N	repaet search backward					|N|	|03.8|
+	simple search patterns						|03.9|
+
+	marks(TODO)							|03.10|
 
 *common-tips-editing*		Editing:
 
