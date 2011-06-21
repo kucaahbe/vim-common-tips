@@ -48,14 +48,35 @@ TODO HERE folded contents menu
 
 *common-tips-editing*		Editing:
 
- i	Insert mode(inserts a character before the character under the cursor)
- o	creates a new, empty line below the cursor and puts Vim in Insert mode
- O	command opens a line above the cursor
- x	Deleting characters
- dd	Deleting a line
- J	Deleting a line break
- u	Undo
- CTRL-R Redo
+ |d|M	for deleting, where M is |motion|			|04.1|
+ |c|M	for changing, where M is |motion|			|04.2|
+ |x|	delete character under the cursor
+ |X|	delete character left of the cursor
+ |D|	|d|$ - delete to end of the line
+ |C|	|c|$ - change to end of the line
+ |s|	|c|l - change one character
+ |S|	|cc| - change a whole line
+ |r|	change one character
+ |i|	opens insert mode before the character under the cursor
+ |a|	opens insert mode at the end of line
+opens insert mode at the start of line
+ |o|	creates an empty line below the cursor and opens insert mode
+ |O|	command opens a line above the cursor
+ |dd|	Deleting a line
+ |cc|	Deleting a line and stay in inseet mode
+ |J|	Deleting a line break
+ |u|	Undo
+ |CTRL-R| Redo
+ |.| 	Repeating changes 				|04.3|
+
+*common-tips-visual* 		Visual mode 				|04.4|
+
+ |v| 	visual mode
+ |V| 	visual mode(selecting lines)
+ |CTRL-V| visual mode(selecting blocks)
+ |v_o| 	go to the opposite corner of selection
+ |v_O| 	move to the other corner in the same line
+
 
 COPY/PASTING
 
