@@ -1,6 +1,6 @@
 *common-tips*	Common tips for Vim version 7.2.
 
-Last change: 2011 Jun 06
+Last change: 2011 Jun 21
 
 TODO HERE folded contents menu
 
@@ -35,7 +35,10 @@ TODO HERE folded contents menu
 
  |%|	matching a parenthesis		|03.4|
 
-	scrolling						|Q_sc|
+ |text-objects| operate with words, paragraphs etc.
+ |operator| 	motions and operators
+
+*common-tips-scrolling*		Scrolling			|Q_sc|
 
 *common-tips-searching*		Searching:
 
@@ -58,12 +61,13 @@ TODO HERE folded contents menu
  |S|	|cc| - change a whole line
  |r|	change one character
  |i|	opens insert mode before the character under the cursor
- |a|	opens insert mode at the end of line
-opens insert mode at the start of line
+ |a|	opens insert mode after the character under the cursor
+ |A|	opens insert mode at the end of line
+ |I| 	opens insert mode at the start of line
  |o|	creates an empty line below the cursor and opens insert mode
  |O|	command opens a line above the cursor
  |dd|	Deleting a line
- |cc|	Deleting a line and stay in inseet mode
+ |cc|	Deleting a line and stay in insert mode
  |J|	Deleting a line break
  |u|	Undo
  |CTRL-R| Redo
@@ -82,6 +86,9 @@ opens insert mode at the start of line
  |deleting| will copy data to |registers|
  |p| 	paste below the cursor
  |P| 	paste after the cursor
+ |y| 	copying text 			|04.6|
+ |yy| 	copy whole line
+
 
 
 *common-tips-examples*		Examples:
