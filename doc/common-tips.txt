@@ -6,43 +6,43 @@ TODO HERE folded contents menu
 
 *common-tips-moving*		Moving:
 
- 7G	go to line 7						|G|
- 20%	go to 20% of file
+ 7|G| 	go to line 7
+ 20%  go to 20% of file
 
- H	to first line in window					|H|
- L	to last line in window					|L|
- M	to middle line in window				|M|
+ |H|	to first line in window
+ |L|	to last line in window
+ |M|	to middle line in window
 
- gg	to first line in a file					|gg|
- G	to last line in a file					|G|
+ |gg|	to first line in a file
+ |G|	to last line in a file
 
- ^	to first NON-BLANK character in the line		|^|
- 0	to first character in the line				|0|
- g0	to first character in the SCREEN line(when |wrap| on)	|g0|	|g0-example|
+ |^|	to first NON-BLANK character in the line
+ |0|	to first character in the line
+ |g0|	to first character in the SCREEN line(when |wrap| on) 	|g0-example|
 
- g_ 	to last NON-BLANK character in the line			|g_|
- $	to last character in the line				|$|
- g$	to last character in the SCREEN line(when |wrap| on)	|g$|
+ |g_| 	to last NON-BLANK character in the line
+ |$|	to last character in the line
+ |g$|	to last character in the SCREEN line(when |wrap| on)
 
- w	to next word						|w|	|03.1|
- b	to previous word					|b|	|03.1|
- W	to next WORD	      	 				|W|	|03.1|
- B	to previous WORD					|B|	|03.1|
- e	to the end of next word					|e|	|03.1|
- ge	to the end of previous word				|ge|	|03.1|
- E	to the end of next WORD				     	|E|	|03.1|
- gE	to the end of previous WORD				|gE|	|03.1|
+ |w|	to next word			|03.1|
+ |b|	to previous word		|03.1|
+ |W|	to next WORD	      	 	|03.1|
+ |B|	to previous WORD		|03.1|
+ |e|	to the end of next word		|03.1|
+ |ge|	to the end of previous word	|03.1|
+ |E|	to the end of next WORD		|03.1|
+ |gE|	to the end of previous WORD	|03.1|
 
- %	matching a parenthesis					|%|	|03.4|
+ |%|	matching a parenthesis		|03.4|
 
 	scrolling						|Q_sc|
 
 *common-tips-searching*		Searching:
 
- /	search command						|/|	|03.8|
- n	repeat search forward					|n|	|03.8|
- N	repaet search backward					|N|	|03.8|
-	simple search patterns						|03.9|
+ |/|	search command 			|03.8|
+ |n|	repeat search forward 		|03.8|
+ |N|	repeat search backward 		|03.8|
+      simple search patterns 	|03.9|
 
 	marks(TODO)							|03.10|
 
