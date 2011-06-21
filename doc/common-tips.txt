@@ -51,6 +51,7 @@ TODO HERE folded contents menu
 
 *common-tips-editing*		Editing:
 
+ |~| 	change case of the character under the cursor, and move the cursor to the next character
  |d|M	for deleting, where M is |motion|			|04.1|
  |c|M	for changing, where M is |motion|			|04.2|
  |x|	delete character under the cursor
