@@ -77,8 +77,12 @@ opens insert mode at the start of line
  |v_o| 	go to the opposite corner of selection
  |v_O| 	move to the other corner in the same line
 
+*common-tips-copy-paste* 	copy/pasting
 
-COPY/PASTING
+ |deleting| will copy data to |registers|
+ |p| 	paste below the cursor
+ |P| 	paste after the cursor
+
 
 *common-tips-examples*		Examples:
 =======================================================================================
