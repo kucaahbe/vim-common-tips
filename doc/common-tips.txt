@@ -90,6 +90,10 @@ TODO HERE folded contents menu
  |y| 	copying text 			|04.6|
  |yy| 	copy whole line
 
+*common-tips-config* 		Config
+
+ |:options| 	will show grouped options and short description |05.6|
+
 
 
 *common-tips-examples*		Examples:
