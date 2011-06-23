@@ -47,7 +47,17 @@ TODO HERE folded contents menu
  |N|	repeat search backward 		|03.8|
       simple search patterns 	|03.9|
 
-	marks(TODO)							|03.10|
+*common-tips-marks*		Marks			|03.10|
+
+ |m|   	to set mark
+ |'| (|`|) 	to go to the mark
+ |'|" (|`|") 	takes you to the position where the cursor was when you left the file
+ |'|. (|`|.) 	takes you to the position where you made the last change
+
+*common-tips-registers* 		Registers
+
+ "xy 	yank text to register x
+ "xp 	paste test from register x
 
 *common-tips-editing*		Editing:
 
@@ -92,8 +102,15 @@ TODO HERE folded contents menu
 
 *common-tips-config* 		Config
 
- |:options| 	will show grouped options and short description |05.6|
+ |:options| 	will show grouped options, short description and with ability to change|05.6|
+ :set option& 	rewert option value back
 
+*common-tips-windows* 		Working with windows
+
+*common-tips-tricks* 		Tricks
+
+ :write >> another_file.txt 	append current file(or selection) to another_file.txt
+ :saveas new_name 		save as:)
 
 
 *common-tips-examples*		Examples:
