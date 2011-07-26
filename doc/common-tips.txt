@@ -54,10 +54,12 @@ TODO HERE folded contents menu
  |'|" (|`|") 	takes you to the position where the cursor was when you left the file
  |'|. (|`|.) 	takes you to the position where you made the last change
 
-*common-tips-registers* 		Registers
+*common-tips-registers* 		Registers 	|quote|
 
  "xy 	yank text to register x
  "xp 	paste test from register x
+ * 	register for "current selection"
+ * 	register for real clipboard
 
 *common-tips-editing*		Editing:
 
