@@ -130,8 +130,8 @@ TODO HERE folded contents menu
  :saveas new_name 		save as:)
 
 
-*common-tips-examples*		Examples:
 =======================================================================================
+*common-tips-examples*		Examples:
 
 *g0-example*
 
