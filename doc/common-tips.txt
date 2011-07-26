@@ -106,6 +106,23 @@ TODO HERE folded contents menu
  :set option& 	rewert option value back
 
 *common-tips-windows* 		Working with windows
+ |:split|,CTRL-W s   horizontal split
+ |:vsplit|,CTRL-W v  vertical split
+ CTRL-W w            jump between windows
+ |:close|            close window
+ {height}CTRL-W + increase size of window
+ {height}CTRL-W - decrease size of window
+ {height}CTRL-W _ set window height(without height parameter window will be maximized)
+ |Q_wi|           various windows commands
+  CTRL-W K	move window to the top
+  CTRL-W H	move window to the far left
+  CTRL-W J	move window to the bottom
+  CTRL-W L	move window to the far right
+
+*common-tips-tabs* 		Working with tabs
+ |:tabedit| file 	edit file in a tab
+ |:tab| vimcmd 		run vimcmd in a tab
+ |tab-page| 		help page about tabs
 
 *common-tips-tricks* 		Tricks
 
