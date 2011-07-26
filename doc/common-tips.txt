@@ -126,6 +126,10 @@ TODO HERE folded contents menu
  |:tab| vimcmd 		run vimcmd in a tab
  |tab-page| 		help page about tabs
 
+*common-tips-clipboard* 	Clipboard 	|09.3|
+ "+y 	yank to X11 clipboard
+ "+p 	paste X11 clipboard
+
 *common-tips-tricks* 		Tricks
 
  :write >> another_file.txt 	append current file(or selection) to another_file.txt
