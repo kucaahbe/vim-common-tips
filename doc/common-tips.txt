@@ -49,10 +49,12 @@ TODO HERE folded contents menu
 
 *common-tips-marks*		Marks			|03.10|
 
- |m|   	to set mark
- |'| (|`|) 	to go to the mark
+ |m|a   	to set mark into 'a'
+ |'| (|`|)a 	to go to the mark 'a'
  |'|" (|`|") 	takes you to the position where the cursor was when you left the file
  |'|. (|`|.) 	takes you to the position where you made the last change
+ |'|< 		go to start selection mark
+ |'|> 		go to end selection mark
 
 *common-tips-registers* 		Registers 	|quote|
 
@@ -130,10 +132,17 @@ TODO HERE folded contents menu
  "+y 	yank to X11 clipboard
  "+p 	paste X11 clipboard
 
+*common-tips-recordig* 		Recording 	|10.1|
+ |q|a 	start recordig into register 'a'
+ |q| 	stop recording
+ |@|a 	play recorded into register 'a'
+ |@@| 	repeat last @z command
+
 *common-tips-tricks* 		Tricks
 
  :write >> another_file.txt 	append current file(or selection) to another_file.txt
  :saveas new_name 		save as:)
+ :set list 			make invisible chars visible
 
 
 =======================================================================================
