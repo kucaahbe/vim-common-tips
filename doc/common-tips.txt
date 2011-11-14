@@ -61,7 +61,8 @@ TODO HERE folded contents menu
  "xy 	yank text to register x
  "xp 	paste test from register x
  * 	register for "current selection"
- * 	register for real clipboard
+ + 	register for real clipboard
+        use CAPITALIZED letter as register name to append to this register
 
 *common-tips-editing*		Editing:
 
@@ -141,6 +142,7 @@ TODO HERE folded contents menu
 *common-tips-tricks* 		Tricks
 
  :write >> another_file.txt 	append current file(or selection) to another_file.txt
+ :read file.txt                 insert contents of a file.txt here
  :saveas new_name 		save as:)
  :set list 			make invisible chars visible
 
